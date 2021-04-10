@@ -16,3 +16,5 @@ $ ./bin/pip install whois
 Edit list-of-domains.txt, then run:
 
 $ ./bin/python script.py
+
+Check output.csv for result.
