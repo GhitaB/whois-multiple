@@ -12,6 +12,10 @@ with open("list-of-domains.txt") as file_in:
 
         print("{} - {}".format(domain_name, domain_expiration))
 
+        file_out = open("output.csv", "a")
+        file_out.write("{},{}\n".format(domain_name, domain_expiration))
+        file_out.close()
+
 # print(domain.__dict__)
 # {
 #         'expiration_date': datetime.datetime(2020, 9, 14, 0, 0),
