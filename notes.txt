@@ -1,0 +1,9 @@
+Install
+=======
+
+$ sudo apt install whois
+$ git clone git@github.com:GhitaB/whois-multiple.git
+$ cd whois-multiple
+$ virtualenv .
+$ ./bin/pip install whois
+$ ./bin/python script.py
